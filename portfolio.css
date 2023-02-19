@@ -1,0 +1,155 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+.container-fluidd{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    list-style-type: none;
+    position: fixed;
+    top:0;
+    left:0;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+li{
+    display: list-item;
+}
+ .container-fluidd a{
+    text-decoration:none;
+    display: block;
+    color: white;
+    font-size:2vw;
+    padding: 1vw;
+}
+.container-fluidd a:hover{
+    background-color: #303841;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+div.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.intro h1{
+    color: white;
+    padding: 1vw;
+    font-size:4.5vw;
+}
+.intro p{
+    color:red;
+    font-size:2vw;
+    font-weight: 100;
+}
+ .container-fluid{
+    position: relative;
+    width:100%;
+    background-color: #45567d;
+    text-align: center;
+
+}
+.container-fluid h2{
+    color:white;
+    margin: 0 auto 4vw auto;
+    font-size:3vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top:2vw;
+    border-bottom: 2px solid white;
+    max-width:700px;
+}
+.projects-links{
+    margin-bottom: 3rem;
+    transition: 0.2s ease-in-out;
+}
+.projects-links a{
+    background: rgb(48, 48, 48);
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+.code{
+    display:none;
+    transition: 0.2s ease-in-out;
+}
+.project-text{
+    font-size:1.4rem;
+    background-color: #39373a;
+    text-decoration: none;
+    padding:10px 5px;
+    transition: 0.2s ease-in-out;
+}
+.projects-links a:hover .code{
+    color:orangered;
+    display:inline-block;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.projects-links a:hover{
+    text-decoration: none;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+.footeer{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+.contact{
+    width:100%;
+}
+.contact h1{
+    color:white ;
+    text-align: center;
+    font-size:5vw;
+}
+.contact p{
+    color:white;
+    text-align: center;
+    font-size:2vw;
+    font-weight: 100;
+}
+.socials{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8vw;
+}
+.socials  a{
+    color:white;
+    text-decoration: none;
+    padding:2vw;
+    font-size:2vw;
+}
+.socials i{
+    display:  inline-block;
+    color:white;
+    padding:1vw;
+}
+.socials a:hover{
+    color:white;
+    transform: scale(1.5, 1.5);
+    transition: 0.3s ease-in;
+}
+.contact hr{
+    height: 4px;
+    margin-top: 10vw;
+}
